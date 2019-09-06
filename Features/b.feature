@@ -9,7 +9,3 @@ Scenario: Registration to the Application
 		And   User click on Register button
 		Then  Page title should be "confirmation"
 		And   User is should see confirmation message about successful registration
-Scenario: scenario description
-    Given a precondition is valid
-    When an action is performed
-    Then something should be asserted
